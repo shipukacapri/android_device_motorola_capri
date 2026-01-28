@@ -22,6 +22,12 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
+# Moto Camera 4
+TARGET_MOTCAMERA3 := capri
+TARGET_USES_MOTCAMERA3 := true
+
+$(call inherit-product, vendor/motorola/MotCamera4-bengal/motcamera4.mk)
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -79,6 +85,11 @@ PRODUCT_PACKAGES += \
     carrier.retin.prop \
     carrier.retmea.prop \
     hardware.sku.XT2127-3.prop
+
+# Infinity Specific Properties
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.infinity.soc=Snapdragon_460 \
+    ro.infinity.camera=48MP+8MP+2MP+2MP+8MP
 
 # Shipping API level
 BOARD_SHIPPING_API_LEVEL := 30
