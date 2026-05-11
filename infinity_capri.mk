@@ -20,6 +20,9 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(10)
 PRODUCT_MANUFACTURER := motorola
 
+# Infinity Flags
+INFINITY_MAINTAINER := Shipu
+
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
