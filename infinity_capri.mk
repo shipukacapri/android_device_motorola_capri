@@ -23,7 +23,7 @@ PRODUCT_MANUFACTURER := motorola
 # Infinity Flags
 INFINITY_MAINTAINER := Shipu
 # Whether Including Google Apps
-WITH_GAPPS := false
+WITH_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
