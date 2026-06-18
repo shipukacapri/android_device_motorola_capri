@@ -19,7 +19,6 @@ AXION_CAMERA_REAR_INFO := 48,8,2,2
 AXION_CAMERA_FRONT_INFO := 8
 AXION_MAINTAINER := Shipu
 AXION_PROCESSOR := Snapdragon_460
-TARGET_INCLUDE_AXFX := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_capri
