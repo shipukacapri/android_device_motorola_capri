@@ -22,6 +22,9 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
+# Overlay Voltage Maintainer
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-voltage
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
