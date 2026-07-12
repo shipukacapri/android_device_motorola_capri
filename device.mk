@@ -22,11 +22,6 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
-# Moto Camera 4
-TARGET_MOTCAMERA3 := capri
-TARGET_USES_MOTCAMERA3 := true
-
-$(call inherit-product, vendor/motorola/MotCamera4-bengal/motcamera4.mk)
 
 # Overlay Voltage Maintainer
 PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-voltage
