@@ -1,0 +1,6 @@
+# Infinity Specific Properties
+ro.product.marketname=Motorola moto g10 power
+ro.infinity.soc=Snapdragon 662
+ro.infinity.camera=48MP + 8MP + 2MP + 2MP + 8MP
+ro.infinity.battery=6000 mAh
+ro.infinity.display=720x1640 , IPS LCD
