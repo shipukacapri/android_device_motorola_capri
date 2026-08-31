@@ -26,3 +26,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="capri_retail-user 11 RRB31.Q1-3-48-24 196a2 release-keys" \
     BuildFingerprint=motorola/capri_retail/capri:11/RRB31.Q1-3-48-24/196a2:user/release-keys \
     DeviceProduct=capri_retail
+
+# Rising Flags
+WITH_GMS := true
+RISING_MAINTAINER := Shipu
+TARGET_ENABLE_BLUR := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingMaintainer="Shipu" \
+    RisingChipset="Snapdragon 460"
