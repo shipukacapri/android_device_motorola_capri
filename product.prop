@@ -1,3 +1,8 @@
 # SKU specific properties
 import /product/etc/props/carrier.${ro.boot.carrier}.prop
 import /product/etc/props/hardware.sku.${ro.boot.hardware.sku}.prop
+
+# Infinity Specific Properties
+ro.infinity.soc=Snapdragon 460
+ro.infinity.camera=48MP + 8MP + 2MP + 2MP + 8MP
+ro.infinity.display=720 x 1600, IPS LCD

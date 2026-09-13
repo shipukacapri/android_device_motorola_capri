@@ -3,3 +3,5 @@ ro.product.odm.model=moto g(10) power
 ro.product.product.model=moto g(10) power
 ro.vendor.product.display=moto g(10) power
 ro.vendor.product.display.plain_text=moto g(10) power
+ro.product.marketname=moto g(10) power (India)
+ro.infinity.battery=6000 mAh
