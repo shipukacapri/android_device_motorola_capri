@@ -57,7 +57,8 @@ PRODUCT_PACKAGES += \
     WifiResDevice \
     WifiResDeviceRetin \
     WifiResDeviceRetmea \
-    WifiResDeviceXT2127-3
+    WifiResDeviceXT2127-3 \
+    InfinityUpdater
 
 # Permissions
 PRODUCT_COPY_FILES += \
